@@ -1,0 +1,44 @@
+.nav {
+  width: 10vw;
+  height: 85vh;
+}
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.nav-buttons>button {
+  margin: 20px 0;
+  width: 95%;
+}
+.img-container {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.welcome-cat {
+  max-width: 70%;
+  border-radius: 8px;
+}
+.cat-words{
+  position: absolute;
+  /* text-shadow:
+		-1px -1px 0 #D3212D,
+		1px -1px 0 #D3212D,
+		-1px 1px 0 #D3212D,
+		1px 1px 0 #D3212D; */
+}
+.top {
+  top: 160px;
+}
+.bottom {
+  bottom: 50px;;
+}
+.img-wrap {
+  display: flex;
+  justify-content: center;
+}

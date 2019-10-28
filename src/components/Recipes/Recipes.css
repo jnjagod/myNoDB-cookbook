@@ -1,0 +1,28 @@
+#recipe-nav {
+  width: 11vw;
+}
+.all-recipes{
+  flex-wrap: wrap;
+  /* display: none; */
+}
+.thumb {
+  display: flex;
+  flex-direction: column;
+  max-height: 300px;
+  cursor: pointer;
+}
+.title-span {
+  text-align: center;
+  margin-top: 10px;
+  max-width: 200px;
+}
+.authors {
+  margin: 6px;
+}
+#invisible {
+  display: none;
+}
+.card-box {
+  align-items: center;
+  padding-left: 200px;
+}

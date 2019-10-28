@@ -1,0 +1,32 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.card {
+  width: 60vw;
+  height: 75vh;
+  margin-top: 20px;
+}
+textarea {
+  resize: none;
+}
+.text-box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.recipe-title {
+  padding-left: 50px;
+}
+.recipe-bottom-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  margin-top: 10px;
+}
+.recipe-button-box>button {
+  margin-right: 25px;
+  width: 78px;
+}

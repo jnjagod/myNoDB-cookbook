@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+.fas {
+  color: #D3212D;
+}
+.joke:hover .fa-book-open,
+.joke .fa-book-dead {
+  display: none;
+}
+.joke:hover .fa-book-dead {
+  display: inline;
+}
